@@ -55,6 +55,7 @@ form label {
 form h1 {
   font-size: 2.7em;
   margin-bottom: 0;
+  text-align:center;
 }
 
 .subtitle {

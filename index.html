@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/725a23138f.js" crossorigin="anonymous"></script>
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <form>
+
+            <h1>Select Camping Gear</h1>
+            <h2 class="subtitle">Overnight Trips Only</h2>
+            <h2>Shelter and Clothing</h2>
+
+            <label for="item1" class="container">Tent
+                <input type="checkbox" id="item1" value="5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item2" class="container">Sleeping Bag
+                <input type="checkbox" id="item2" value="3">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item3" class="container">Jacket
+                <input type="checkbox" id="item3" value="1.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item4" class="container">Long Pants
+                <input type="checkbox" id="item4" value="2">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item5" class="container">Warm Hat
+                <input type="checkbox" id="item5" value="0.5">
+                <span class="checkmark"></span>
+            </label>
+
+
+            <h2>Bike Repairs</h2>
+
+
+            <label for="item6" class="container">Inner Tube
+                <input type="checkbox" id="item6" value="0.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item7" class="container">Inner Tube
+                <input type="checkbox" id="item7" value="0.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item8" class="container">Pump
+                <input type="checkbox" id="item8" value="1">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item9" class="container">Extra Chain
+                <input type="checkbox" id="item9" value="2">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item10" class="container">Mini Tool
+                <input type="checkbox" id="item10" value="0.25">
+                <span class="checkmark"></span>
+            </label>
+
+            <h2>Nutrition and Hydration</h2>
+
+            <label for="item11" class="container">24oz Water Bottle
+                <input type="checkbox" id="item11" value="1.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item12" class="container">24oz Water Bottle
+                <input type="checkbox" id="item12" value="1.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item13" class="container">Freeze Dried Food
+                <input type="checkbox" id="item13" value="0.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item14" class="container">Freeze Dried Food
+                <input type="checkbox" id="item14" value="0.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item15" class="container">Freeze Dried Food
+                <input type="checkbox" id="item15" value="0.5">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item16" class="container">Camping Stove and Gas
+                <input type="checkbox" id="item16" value="4">
+                <span class="checkmark"></span>
+            </label>
+
+            <h2>Other Items</h2>
+
+            <label for="item17" class="container">First Aid Kit
+                <input type="checkbox" id="item17" value="2">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item18" class="container">Portable Battery
+                <input type="checkbox" id="item18" value="1">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item19" class="container">Deck Of Cards
+                <input type="checkbox" id="item19" value="0.25">
+                <span class="checkmark"></span>
+            </label>
+
+            <label for="item20" class="container">Binoculars
+                <input type="checkbox" id="item20" value="1">
+                <span class="checkmark"></span>
+            </label>
+
+
+            <p id="total" class="weightInfo"></p>
+
+            <p class="calculate">Calculate!</p>
+            <div class="buttonDiv">
+                <button type="button" class="button" id="calcButton"><i class="fa-solid fa-calculator"></i></button>
+            </div>
+
+        </form>
+    </div>
+    <div class="weather-wrapper">
+        <section class="weather-content">
+            <div class="search">
+                <!-- <h2>Weather</h2>
+                <p>Enter the City were you will be camping</p> -->
+                <input type="text" class="search-bar" placeholder="Denver">
+                <button id="weatherSubmit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="weather">
+                <h2 class="city">Weather in Denver</h2>
+                <h1 class="temp">60°F</h1>
+                <p class="low-temp">Lowest Daily Temp: 53°F</p>
+                <div class="flex">
+                    <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" class="icon" />
+                    <div class="description">Cloudy</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

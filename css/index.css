@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(12px + 0.390625vw);
+
+}
+:root {
+  --section-bg: #000000d0;
+  --body-bg: #222;
+  --section-border-radius: 30px;
+  --main-font: 'Open Sans', sans-serif;
+  --font-color: white;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg);
+    font-family: var(--main-font);
+    color: var(--font-color);
+    background: url("../images/background2.jpg");
+    /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: fill;
+  position: relative;
+}
+
+
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+form {
+  background-color: var(--section-bg);
+  border-radius: var(--section-border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 1em;
+  padding-bottom: 1em;
+}
+
+form label {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+form h1 {
+  font-size: 2.7em;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 1em;
+}
+
+form h2 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0;
+  color: #b9b9b9;
+}
+
+.weightInfo {
+  font-size: 3em;
+  text-align: center;
+}
+
+
+.calculate {
+  margin: 0;
+  font-size: 1.5em;
+}
+.button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 60px;
+  width: 60px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  transition: ease-in-out 200ms;
+}
+.button {
+  font-size: 2em;
+}
+.button:hover {
+  background:#7c7c7c6b;
+  cursor: pointer;
+}
+
+
+
+
+.weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.weather-content {
+  background: var(--section-bg);
+  padding: 2em;
+  border-radius: var(--section-border-radius);
+  width: 100%;
+  max-width: 600px;
+  margin: 1em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 46px;
+  width: 46px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  transition: ease-in-out 200ms;
+}
+
+.search button:hover {
+  background:#7c7c7c6b;
+  cursor: pointer;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  padding: .5em 1em;
+  border-radius: 23.1px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: var(--main-font);
+  font-size: 115%;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
